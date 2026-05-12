@@ -1,7 +1,6 @@
 modLoader = "javafml" #mandatory
 loaderVersion = "${neoforge_loader_version_range}" #mandatory
 license = "${license}" # Review your options at https://choosealicense.com/.
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
 [[mods]] #mandatory
 modId = "${mod_id}" #mandatory
 version = "${version}" #mandatory
@@ -13,9 +12,9 @@ credits="${credits}" #optional
 authors = "${mod_author}" #optional
 description = '''${description}''' #mandatory (Supports multiline text)
 [[mixins]]
-config = "${mod_id}.mixins.json"
+#config = "${mod_id}.mixins.json"
 [[mixins]]
-config = "${mod_id}.neoforge.mixins.json"
+#config = "${mod_id}.neoforge.mixins.json"
 [[dependencies.${mod_id}]] #optional
 modId = "neoforge" #mandatory
 type="required" #mandatory (Can be one of "required", "optional", "incompatible" or "discouraged")
