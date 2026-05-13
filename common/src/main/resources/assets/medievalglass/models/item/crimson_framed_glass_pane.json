@@ -2,6 +2,6 @@
   "parent": "minecraft:item/generated",
   "render_type": "translucent",
   "textures": {
-    "layer0": "medievalglass:item/crimson_framed_glass_pane"
+    "layer0": "medievalglass:item/crimson_framed_glass_pane_item"
   }
 }

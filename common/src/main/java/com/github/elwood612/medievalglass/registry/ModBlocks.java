@@ -1,9 +1,5 @@
 package com.github.elwood612.medievalglass.registry;
 
-import com.github.elwood612.medievalglass.blocks.VerticalConnectedPane;
-import com.google.common.base.Supplier;
-import com.google.common.base.Suppliers;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
@@ -20,14 +16,11 @@ public class ModBlocks {
             .requiresCorrectToolForDrops();
 
     public static final HashMap<String, BlockType> BLOCK_MAP = new HashMap<>();
-//    public static final HashMap<String,Supplier<Item>> BLOCKITEM_MAP = new HashMap<>();
 
     public static final String TAB_ID = "my_tab";
 
-//    public static final Supplier<Block> LEADED_GLASS_PANE = Suppliers.memoize(() -> new VerticalConnectedPane(GLASS_PROPERTIES));
-
     static {
         BLOCK_MAP.put("leaded_glass_pane", BlockType.VERTICAL_PANE);
-//        BLOCKITEM_MAP.put("leaded_glass_pane", Suppliers.memoize(() -> new BlockItem(LEADED_GLASS_PANE.get(), new Item.Properties())));
+        BLOCK_MAP.put("white_leaded_glass_pane", BlockType.EIGHTWAY_PANE);
     }
 }
