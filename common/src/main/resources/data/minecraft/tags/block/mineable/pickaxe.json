@@ -1,0 +1,27 @@
+{ 
+  "replace": false, 
+  "values": [ 
+    "medievalglass:ring_leaded_glass_pane",
+	"medievalglass:midland_leaded_glass_pane", 
+	"medievalglass:gufy_leaded_glass_pane", 
+	"medievalglass:avalon_leaded_glass_pane", 
+	"medievalglass:oakfield_leaded_glass_pane", 
+	"medievalglass:pink_leaded_glass_pane", 
+	"medievalglass:magenta_leaded_glass_pane", 
+	"medievalglass:purple_leaded_glass_pane", 
+	"medievalglass:blue_leaded_glass_pane", 
+	"medievalglass:light_blue_leaded_glass_pane", 
+	"medievalglass:cyan_leaded_glass_pane", 
+	"medievalglass:green_leaded_glass_pane", 
+	"medievalglass:lime_leaded_glass_pane", 
+	"medievalglass:yellow_leaded_glass_pane", 
+	"medievalglass:orange_leaded_glass_pane", 
+	"medievalglass:red_leaded_glass_pane", 
+	"medievalglass:brown_leaded_glass_pane", 
+	"medievalglass:black_leaded_glass_pane", 
+	"medievalglass:gray_leaded_glass_pane", 
+	"medievalglass:light_gray_leaded_glass_pane", 
+	"medievalglass:white_leaded_glass_pane", 
+	"medievalglass:leaded_glass_pane"
+  ]
+}

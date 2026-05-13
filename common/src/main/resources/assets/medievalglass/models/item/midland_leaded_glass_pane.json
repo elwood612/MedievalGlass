@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "render_type": "translucent",
+  "textures": {
+    "layer0": "medievalglass:item/midland_leaded_glass_pane"
+  }
+}

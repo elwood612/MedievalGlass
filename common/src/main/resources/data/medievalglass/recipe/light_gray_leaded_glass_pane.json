@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "leaded_colored_glass",
+  "pattern": [
+    "+X+",
+    "X#X",
+    " X "
+  ],
+  "key": {
+    "#": "minecraft:glass_pane",
+    "X": "minecraft:iron_ingot",
+	"+": "minecraft:iron_nugget"
+  },
+  "result": 
+  { 
+    "id": "medievalglass:light_gray_leaded_glass_pane"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "#pane"
+    },
+    "elements": [
+        {   "from": [ 7, 8, 0 ],
+            "to": [ 9, 16, 7 ],
+            "faces": {
+                "up":    { "uv": [  7, 0,  9,  7 ], "texture": "#edge", "cullface": "up"},
+                "north": { "uv": [  7, 0,  9,  8 ], "texture": "#edge", "cullface": "north" },
+                "west":  { "uv": [  3.2, 0, 4.6, 8 ], "texture": "#pane" },
+                "east":  { "uv": [  5, 0, 6.4, 8 ], "texture": "#pane" }
+            }
+        }
+    ]
+}

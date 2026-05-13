@@ -1,0 +1,7 @@
+{
+  "render_type": "translucent",
+  "parent": "medievalglass:block/template_eightway_connected_pane_noside_alt_1",
+  "textures": {
+    "pane": "medievalglass:block/atlas/white_leaded_glass_pane_atlas"
+  }
+}
