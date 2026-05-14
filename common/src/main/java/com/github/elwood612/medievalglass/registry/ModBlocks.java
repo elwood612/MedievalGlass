@@ -11,9 +11,8 @@ public class ModBlocks {
     public static final BlockBehaviour.Properties GLASS_PROPERTIES = BlockBehaviour.Properties.of()
             .mapColor(MapColor.STONE)
             .sound(SoundType.GLASS)
-            .strength(0.3f)
-            .explosionResistance(3.0f)
-            .requiresCorrectToolForDrops();
+            .strength(2.0f, 0.3f)
+            .noOcclusion();
 
     public static final HashMap<String, BlockType> BLOCK_MAP = new HashMap<>();
     public static final String TAB_ID = "my_tab";

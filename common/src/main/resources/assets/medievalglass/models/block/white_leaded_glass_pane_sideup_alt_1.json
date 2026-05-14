@@ -4,6 +4,6 @@
   "textures": {
     "pane": "medievalglass:block/atlas/white_leaded_glass_pane_atlas",
     "edge": "medievalglass:block/leaded_glass_pane_top",
-	"item": "medievalglass:item/leaded_glass_pane_item"
+	"item": "medievalglass:item/white_leaded_glass_pane_item"
   }
 }

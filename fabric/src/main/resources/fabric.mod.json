@@ -22,9 +22,6 @@
             "com.github.elwood612.medievalglass.client.FabricClient"
         ]
     },
-    "mixins": [
-
-    ],
     "depends": {
         "fabricloader": ">=${fabric_loader_version}",
         "fabric-api": "*",

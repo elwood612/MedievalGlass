@@ -1,6 +1,8 @@
 # MEDIEVAL GLASS
 
-This mod adds proper leaded stained glass panes to Minecraft.
+This mod adds proper leaded stained glass panes to Minecraft. These panes are based on real world leaded glass patterns. All textures are 16x16, and most of them have "connected" behavior: place them next to each other to see the full effect. You do NOT need any 3rd party connected textures mod to use these, all you need is this mod.
+
+____________
 
 Code is licensed under MIT.
 
