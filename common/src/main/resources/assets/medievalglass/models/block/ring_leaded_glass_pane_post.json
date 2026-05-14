@@ -3,6 +3,7 @@
   "parent": "medievalglass:block/template_vertical_connected_pane_post",
   "textures": {
     "pane": "medievalglass:block/atlas/ring_leaded_glass_pane_atlas",
-    "edge": "medievalglass:block/leaded_glass_pane_top"
+    "edge": "medievalglass:block/leaded_glass_pane_top",
+	"item": "medievalglass:item/ring_leaded_glass_pane_item"
   }
 }
