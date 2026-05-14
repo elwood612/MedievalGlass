@@ -1,0 +1,9 @@
+{
+  "render_type": "translucent",
+  "parent": "medievalglass:block/template_eightway_connected_pane_sidedown",
+  "textures": {
+    "pane": "medievalglass:block/atlas/mangrove_framed_glass_pane_atlas",
+    "edge": "medievalglass:block/mangrove_framed_glass_pane_top",
+	"item": "medievalglass:item/mangrove_framed_glass_pane_item"
+  }
+}

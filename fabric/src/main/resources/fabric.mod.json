@@ -16,13 +16,12 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.examplemod.ExampleMod"
+            "com.github.elwood612.medievalglass.MedievalGlass"
+        ],
+        "client": [
+            "com.github.elwood612.medievalglass.client.FabricClient"
         ]
     },
-    "mixins": [
-        "${mod_id}.mixins.json",
-        "${mod_id}.fabric.mixins.json"
-    ],
     "depends": {
         "fabricloader": ">=${fabric_loader_version}",
         "fabric-api": "*",
