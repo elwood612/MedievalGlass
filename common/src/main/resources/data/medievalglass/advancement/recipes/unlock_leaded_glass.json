@@ -1,0 +1,52 @@
+{
+  "criteria": {
+    "has_glass_pane": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glass_pane"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+		"medievalglass:ring_leaded_glass_pane",
+		"medievalglass:midland_leaded_glass_pane", 
+		"medievalglass:gufy_leaded_glass_pane", 
+		"medievalglass:avalon_leaded_glass_pane", 
+		"medievalglass:oakfield_leaded_glass_pane", 
+		"medievalglass:pink_leaded_glass_pane", 
+		"medievalglass:magenta_leaded_glass_pane", 
+		"medievalglass:purple_leaded_glass_pane", 
+		"medievalglass:blue_leaded_glass_pane", 
+		"medievalglass:light_blue_leaded_glass_pane", 
+		"medievalglass:cyan_leaded_glass_pane", 
+		"medievalglass:green_leaded_glass_pane", 
+		"medievalglass:lime_leaded_glass_pane", 
+		"medievalglass:yellow_leaded_glass_pane", 
+		"medievalglass:orange_leaded_glass_pane", 
+		"medievalglass:red_leaded_glass_pane", 
+		"medievalglass:brown_leaded_glass_pane", 
+		"medievalglass:black_leaded_glass_pane", 
+		"medievalglass:gray_leaded_glass_pane", 
+		"medievalglass:light_gray_leaded_glass_pane", 
+		"medievalglass:white_leaded_glass_pane", 
+		"medievalglass:leaded_glass_pane",
+		"medievalglass:warped_framed_glass_pane",
+		"medievalglass:crimson_framed_glass_pane", 
+		"medievalglass:jungle_framed_glass_pane", 
+		"medievalglass:acacia_framed_glass_pane", 
+		"medievalglass:dark_oak_framed_glass_pane", 
+		"medievalglass:birch_framed_glass_pane", 
+		"medievalglass:oak_framed_glass_pane", 
+		"medievalglass:spruce_framed_glass_pane",
+		"medievalglass:mangrove_framed_glass_pane",
+		"medievalglass:cherry_framed_glass_pane",
+		"medievalglass:bamboo_framed_glass_pane",
+		"medievalglass:pale_oak_framed_glass_pane"
+    ]
+  }
+}
