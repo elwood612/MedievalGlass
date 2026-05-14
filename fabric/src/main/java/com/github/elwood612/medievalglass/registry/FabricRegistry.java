@@ -3,7 +3,7 @@ package com.github.elwood612.medievalglass.registry;
 import com.github.elwood612.medievalglass.Constants;
 import com.github.elwood612.medievalglass.blocks.EightwayConnectedPane;
 import com.github.elwood612.medievalglass.blocks.VerticalConnectedPane;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -25,7 +25,7 @@ public class FabricRegistry
     public static final CreativeModeTab TAB = Registry.register(
             BuiltInRegistries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(Constants.MOD_ID, ModBlocks.TAB_ID),
-            FabricItemGroup.builder()
+            FabricCreativeModeTab.builder()
                     .title(Component.translatable("itemGroup." + Constants.MOD_ID + ".tab"))
                     .icon(() -> new ItemStack(BuiltInRegistries.BLOCK.getValue(Identifier.fromNamespaceAndPath(Constants.MOD_ID, "leaded_glass_pane"))))
                     .displayItems((params, output) -> {
