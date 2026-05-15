@@ -15,6 +15,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.IronBarsBlock;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -41,12 +42,16 @@ public class FabricRegistry
     }
 
     private static void createRegistry(String name, BlockType type) {
-        Block block = type == BlockType.VERTICAL_PANE ?
-                new VerticalConnectedPane(ModBlocks.GLASS_PROPERTIES
-                                          .setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(Constants.MOD_ID, name)))):
-                new EightwayConnectedPane(ModBlocks.GLASS_PROPERTIES
-                                          .setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(Constants.MOD_ID, name))));
-
+        Block block;
+        switch(type) {
+            case VERTICAL_PANE -> block =
+                    new VerticalConnectedPane(ModBlocks.GLASS_PROPERTIES.setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(Constants.MOD_ID, name))));
+            case EIGHTWAY_PANE -> block =
+                    new EightwayConnectedPane(ModBlocks.GLASS_PROPERTIES.setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(Constants.MOD_ID, name))));
+            case REGULAR_PANE -> block =
+                    new IronBarsBlock(ModBlocks.GLASS_PROPERTIES.setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(Constants.MOD_ID, name))));
+            default -> block = null;
+        }
         Registry.register(BuiltInRegistries.BLOCK, Identifier.fromNamespaceAndPath(Constants.MOD_ID, name), block);
         Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(Constants.MOD_ID, name),
                 new BlockItem(block, new Item.Properties()

@@ -24,6 +24,11 @@ public class ModBlocks {
         BLOCK_MAP.put("gufy_leaded_glass_pane", BlockType.VERTICAL_PANE);
         BLOCK_MAP.put("avalon_leaded_glass_pane", BlockType.VERTICAL_PANE);
         BLOCK_MAP.put("oakfield_leaded_glass_pane", BlockType.VERTICAL_PANE);
+        BLOCK_MAP.put("crystal_leaded_glass_pane", BlockType.VERTICAL_PANE);
+        BLOCK_MAP.put("coral_leaded_glass_pane", BlockType.VERTICAL_PANE);
+        BLOCK_MAP.put("sunrise_leaded_glass_pane", BlockType.VERTICAL_PANE);
+        BLOCK_MAP.put("sacred_leaded_glass_pane", BlockType.VERTICAL_PANE);
+        BLOCK_MAP.put("imperial_leaded_glass_pane", BlockType.VERTICAL_PANE);
 
         BLOCK_MAP.put("white_leaded_glass_pane", BlockType.EIGHTWAY_PANE);
         BLOCK_MAP.put("light_gray_leaded_glass_pane", BlockType.EIGHTWAY_PANE);
@@ -54,5 +59,12 @@ public class ModBlocks {
         BLOCK_MAP.put("warped_framed_glass_pane", BlockType.EIGHTWAY_PANE);
         BLOCK_MAP.put("bamboo_framed_glass_pane", BlockType.EIGHTWAY_PANE);
         BLOCK_MAP.put("pale_oak_framed_glass_pane", BlockType.EIGHTWAY_PANE);
+
+        BLOCK_MAP.put("heart_leaded_glass_pane", BlockType.REGULAR_PANE);
+        BLOCK_MAP.put("pickaxe_leaded_glass_pane", BlockType.REGULAR_PANE);
+        BLOCK_MAP.put("rose_leaded_glass_pane", BlockType.REGULAR_PANE);
+        BLOCK_MAP.put("emerald_leaded_glass_pane", BlockType.REGULAR_PANE);
+        BLOCK_MAP.put("diamond_leaded_glass_pane", BlockType.REGULAR_PANE);
+        BLOCK_MAP.put("apple_leaded_glass_pane", BlockType.REGULAR_PANE);
     }
 }
