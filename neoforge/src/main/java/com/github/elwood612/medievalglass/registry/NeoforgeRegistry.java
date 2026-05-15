@@ -6,7 +6,7 @@ import com.github.elwood612.medievalglass.blocks.VerticalConnectedPane;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -30,7 +30,7 @@ public class NeoforgeRegistry
             TABS.register(ModBlocks.TAB_ID, () ->
                     CreativeModeTab.builder()
                             .title(Component.translatable("itemGroup." + Constants.MOD_ID + ".tab"))
-                            .icon(() -> new ItemStack(BuiltInRegistries.BLOCK.getValue(Identifier.fromNamespaceAndPath(Constants.MOD_ID, "leaded_glass_pane"))))
+                            .icon(() -> new ItemStack(BuiltInRegistries.BLOCK.getValue(ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "leaded_glass_pane"))))
                             .displayItems((params, output) -> {
                                 for (DeferredHolder<Block, ? extends Block> block : BLOCKS.getEntries()) {
                                     output.accept(block.get());
@@ -58,6 +58,6 @@ public class NeoforgeRegistry
                     new IronBarsBlock(ModBlocks.GLASS_PROPERTIES.setId(ResourceKey.create(Registries.BLOCK, registryName))));
             default -> block = null;
         }
-        ITEMS.registerSimpleBlockItem(name, block, () -> new Item.Properties());
+        ITEMS.registerSimpleBlockItem(name, block, new Item.Properties());
     }
 }
