@@ -46,7 +46,18 @@
 		"medievalglass:mangrove_framed_glass_pane",
 		"medievalglass:cherry_framed_glass_pane",
 		"medievalglass:bamboo_framed_glass_pane",
-		"medievalglass:pale_oak_framed_glass_pane"
+		"medievalglass:pale_oak_framed_glass_pane",
+		"medievalglass:crystal_leaded_glass_pane",
+		"medievalglass:coral_leaded_glass_pane",
+		"medievalglass:sunrise_leaded_glass_pane",
+		"medievalglass:sacred_leaded_glass_pane",
+		"medievalglass:imperial_leaded_glass_pane",
+		"medievalglass:heart_leaded_glass_pane",
+		"medievalglass:pickaxe_leaded_glass_pane",
+		"medievalglass:emerald_leaded_glass_pane",
+		"medievalglass:diamond_leaded_glass_pane",
+		"medievalglass:apple_leaded_glass_pane",
+		"medievalglass:rose_leaded_glass_pane"
     ]
   }
 }
