@@ -12,6 +12,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.IronBarsBlock;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -47,10 +48,16 @@ public class NeoforgeRegistry
     }
 
     private static void createRegistry(String name, BlockType type) {
-        DeferredBlock<Block> block = BLOCKS.register(name, registryName -> type == BlockType.VERTICAL_PANE ?
-                new VerticalConnectedPane(ModBlocks.GLASS_PROPERTIES.setId(ResourceKey.create(Registries.BLOCK, registryName))) :
-                new EightwayConnectedPane(ModBlocks.GLASS_PROPERTIES.setId(ResourceKey.create(Registries.BLOCK, registryName))));
-
+        DeferredBlock<Block> block;
+        switch(type) {
+            case VERTICAL_PANE -> block = BLOCKS.register(name, registryName ->
+                    new VerticalConnectedPane(ModBlocks.GLASS_PROPERTIES.setId(ResourceKey.create(Registries.BLOCK, registryName))));
+            case EIGHTWAY_PANE -> block = BLOCKS.register(name, registryName ->
+                    new EightwayConnectedPane(ModBlocks.GLASS_PROPERTIES.setId(ResourceKey.create(Registries.BLOCK, registryName))));
+            case REGULAR_PANE -> block = BLOCKS.register(name, registryName ->
+                    new IronBarsBlock(ModBlocks.GLASS_PROPERTIES.setId(ResourceKey.create(Registries.BLOCK, registryName))));
+            default -> block = null;
+        }
         ITEMS.registerSimpleBlockItem(name, block, () -> new Item.Properties());
     }
 }

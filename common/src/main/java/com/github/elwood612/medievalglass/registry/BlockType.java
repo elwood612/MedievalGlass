@@ -2,5 +2,6 @@ package com.github.elwood612.medievalglass.registry;
 
 public enum BlockType {
     VERTICAL_PANE,
-    EIGHTWAY_PANE
+    EIGHTWAY_PANE,
+    REGULAR_PANE
 }

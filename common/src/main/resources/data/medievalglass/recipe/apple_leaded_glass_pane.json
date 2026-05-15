@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "leaded_colored_glass",
+  "ingredients": [
+    "medievalglass:leaded_glass_pane",
+    "minecraft:apple"
+  ],
+  "result": {
+    "count": 1,
+    "id": "medievalglass:apple_leaded_glass_pane"
+  }
+}

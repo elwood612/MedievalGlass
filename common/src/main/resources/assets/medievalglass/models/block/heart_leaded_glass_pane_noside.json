@@ -1,0 +1,7 @@
+{
+  "render_type": "translucent",
+  "parent": "minecraft:block/template_glass_pane_noside",
+  "textures": {
+    "pane": "medievalglass:block/heart_leaded_glass_pane"
+  }
+}

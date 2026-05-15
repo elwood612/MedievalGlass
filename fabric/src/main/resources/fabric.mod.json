@@ -17,9 +17,6 @@
     "entrypoints": {
         "main": [
             "com.github.elwood612.medievalglass.MedievalGlass"
-        ],
-        "client": [
-            "com.github.elwood612.medievalglass.client.FabricClient"
         ]
     },
     "depends": {
