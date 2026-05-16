@@ -407,7 +407,7 @@
 	
 	{
 		"when": { "eightway_position": "8", "north": "true" },
-		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_2" }
+		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_1" }
     },
 	{
 		"when": { "eightway_position": "8", "north": "true" },
@@ -415,7 +415,7 @@
     },
 	{
 		"when": { "eightway_position": "8", "east": "true" },
-		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_2", "y": 90 }
+		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_1", "y": 90 }
     },
 	{
 		"when": { "eightway_position": "8", "east": "true" },
@@ -461,7 +461,7 @@
     },
 	{
 		"when": { "eightway_position": "9", "north": "true" },
-		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sidedown_2" }
+		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sidedown_1" }
     },
 	{
 		"when": { "eightway_position": "9", "east": "true" },
@@ -469,7 +469,7 @@
     },
 	{
 		"when": { "eightway_position": "9", "east": "true" },
-		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sidedown_2", "y": 90 }
+		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sidedown_1", "y": 90 }
     },
 	{
 		"when": { "eightway_position": "9", "south": "true" },
@@ -523,19 +523,19 @@
     },
 	{
 		"when": { "eightway_position": "10", "south": "true" },
-		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_alt_2" }
+		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_alt_1" }
     },
 	{
 		"when": { "eightway_position": "10", "south": "true" },
-		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sidedown_alt_2" }
+		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sidedown_alt_1" }
     },
 	{
 		"when": { "eightway_position": "10", "west": "true" },
-		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_alt_2", "y": 90 }
+		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_alt_1", "y": 90 }
     },
 	{
 		"when": { "eightway_position": "10", "west": "true" },
-		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sidedown_alt_2", "y": 90 }
+		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sidedown_alt_1", "y": 90 }
     },
 	{
 		"when": { "eightway_position": "10", "north": "false" },
@@ -557,7 +557,7 @@
 	
 	{
 		"when": { "eightway_position": "11", "north": "true" },
-		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_2" }
+		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_1" }
     },
 	{
 		"when": { "eightway_position": "11", "north": "true" },
@@ -565,7 +565,7 @@
     },
 	{
 		"when": { "eightway_position": "11", "east": "true" },
-		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_2", "y": 90 }
+		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_1", "y": 90 }
     },
 	{
 		"when": { "eightway_position": "11", "east": "true" },
@@ -573,7 +573,7 @@
     },
 	{
 		"when": { "eightway_position": "11", "south": "true" },
-		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_alt_2" }
+		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_alt_1" }
     },
 	{
 		"when": { "eightway_position": "11", "south": "true" },
@@ -581,7 +581,7 @@
     },
 	{
 		"when": { "eightway_position": "11", "west": "true" },
-		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_alt_2", "y": 90 }
+		"apply": { "model": "medievalglass:block/blue_leaded_glass_pane_sideup_alt_1", "y": 90 }
     },
 	{
 		"when": { "eightway_position": "11", "west": "true" },
