@@ -1,0 +1,2357 @@
+{
+  "multipart": [
+    {
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_post" }
+    },
+	
+	
+    {
+		"when": { "eightway_position": "0", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup" }
+    },
+	{
+		"when": { "eightway_position": "0", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown" }
+    },
+	{
+		"when": { "eightway_position": "0", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "0", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "0", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt" }
+    },
+	{
+		"when": { "eightway_position": "0", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt" }
+    },
+	{
+		"when": { "eightway_position": "0", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "0", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "0", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside" }
+    },
+	{
+		"when": { "eightway_position": "0", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt" }
+    },
+	{
+		"when": { "eightway_position": "0", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "0", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "1", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3" }
+    },
+	{
+		"when": { "eightway_position": "1", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3" }
+    },
+	{
+		"when": { "eightway_position": "1", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "1", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "1", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt" }
+    },
+	{
+		"when": { "eightway_position": "1", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt" }
+    },
+	{
+		"when": { "eightway_position": "1", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "1", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "1", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside" }
+    },
+	{
+		"when": { "eightway_position": "1", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt" }
+    },
+	{
+		"when": { "eightway_position": "1", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "1", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "2", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3" }
+    },
+	{
+		"when": { "eightway_position": "2", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3" }
+    },
+	{
+		"when": { "eightway_position": "2", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "2", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "2", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "2", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "2", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "2", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "2", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside" }
+    },
+	{
+		"when": { "eightway_position": "2", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt" }
+    },
+	{
+		"when": { "eightway_position": "2", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "2", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "3", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup" }
+    },
+	{
+		"when": { "eightway_position": "3", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown" }
+    },
+	{
+		"when": { "eightway_position": "3", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "3", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "3", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "3", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "3", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "3", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "3", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside" }
+    },
+	{
+		"when": { "eightway_position": "3", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt" }
+    },
+	{
+		"when": { "eightway_position": "3", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "3", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "4", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3" }
+    },
+	{
+		"when": { "eightway_position": "4", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4" }
+    },
+	{
+		"when": { "eightway_position": "4", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "4", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "4", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt" }
+    },
+	{
+		"when": { "eightway_position": "4", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "4", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "4", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "4", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1" }
+    },
+	{
+		"when": { "eightway_position": "4", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "4", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "4", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "5", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup" }
+    },
+	{
+		"when": { "eightway_position": "5", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2" }
+    },
+	{
+		"when": { "eightway_position": "5", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "5", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "5", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "5", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "5", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "5", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "5", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1" }
+    },
+	{
+		"when": { "eightway_position": "5", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "5", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "5", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "6", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4" }
+    },
+	{
+		"when": { "eightway_position": "6", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4" }
+    },
+	{
+		"when": { "eightway_position": "6", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "6", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "6", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "6", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "6", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "6", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "6", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "6", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "6", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "6", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "7", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3" }
+    },
+	{
+		"when": { "eightway_position": "7", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4" }
+    },
+	{
+		"when": { "eightway_position": "7", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "7", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "7", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "7", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "7", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "7", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "7", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1" }
+    },
+	{
+		"when": { "eightway_position": "7", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "7", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "7", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "8", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1" }
+    },
+	{
+		"when": { "eightway_position": "8", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4" }
+    },
+	{
+		"when": { "eightway_position": "8", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "8", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "8", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "8", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "8", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "8", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "8", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "8", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "8", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "8", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "9", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4" }
+    },
+	{
+		"when": { "eightway_position": "9", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1" }
+    },
+	{
+		"when": { "eightway_position": "9", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "9", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "9", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "9", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "9", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "9", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "9", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "9", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "9", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "9", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "10", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4" }
+    },
+	{
+		"when": { "eightway_position": "10", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4" }
+    },
+	{
+		"when": { "eightway_position": "10", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "10", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "10", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "10", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "10", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "10", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "10", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "10", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "10", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "10", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "11", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1" }
+    },
+	{
+		"when": { "eightway_position": "11", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4" }
+    },
+	{
+		"when": { "eightway_position": "11", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "11", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "11", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "11", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "11", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "11", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "11", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "11", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "11", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "11", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "12", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup" }
+    },
+	{
+		"when": { "eightway_position": "12", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2" }
+    },
+	{
+		"when": { "eightway_position": "12", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "12", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "12", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt" }
+    },
+	{
+		"when": { "eightway_position": "12", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "12", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "12", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "12", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1" }
+    },
+	{
+		"when": { "eightway_position": "12", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "12", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "12", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "13", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3" }
+    },
+	{
+		"when": { "eightway_position": "13", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1" }
+    },
+	{
+		"when": { "eightway_position": "13", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "13", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "13", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt" }
+    },
+	{
+		"when": { "eightway_position": "13", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "13", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "13", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "13", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1" }
+    },
+	{
+		"when": { "eightway_position": "13", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "13", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "13", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "14", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3" }
+    },
+	{
+		"when": { "eightway_position": "14", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1" }
+    },
+	{
+		"when": { "eightway_position": "14", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "14", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "14", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "14", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "14", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "14", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "14", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1" }
+    },
+	{
+		"when": { "eightway_position": "14", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "14", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "14", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "15", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup" }
+    },
+	{
+		"when": { "eightway_position": "15", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2" }
+    },
+	{
+		"when": { "eightway_position": "15", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "15", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "15", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "15", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "15", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "15", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "15", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1" }
+    },
+	{
+		"when": { "eightway_position": "15", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "15", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "15", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "16", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4" }
+    },
+	{
+		"when": { "eightway_position": "16", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3" }
+    },
+	{
+		"when": { "eightway_position": "16", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "16", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "16", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "16", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt" }
+    },
+	{
+		"when": { "eightway_position": "16", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "16", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "16", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3" }
+    },
+	{
+		"when": { "eightway_position": "16", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "16", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "16", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "17", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2" }
+    },
+	{
+		"when": { "eightway_position": "17", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown" }
+    },
+	{
+		"when": { "eightway_position": "17", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "17", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "17", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "17", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "17", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "17", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "17", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3" }
+    },
+	{
+		"when": { "eightway_position": "17", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "17", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "17", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "18", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4" }
+    },
+	{
+		"when": { "eightway_position": "18", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3" }
+    },
+	{
+		"when": { "eightway_position": "18", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "18", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "18", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "18", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "18", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "18", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "18", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3" }
+    },
+	{
+		"when": { "eightway_position": "18", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "18", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "18", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "19", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2" }
+    },
+	{
+		"when": { "eightway_position": "19", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2" }
+    },
+	{
+		"when": { "eightway_position": "19", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "19", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "19", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "19", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "19", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "19", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "19", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "19", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "19", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "19", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "20", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4" }
+    },
+	{
+		"when": { "eightway_position": "20", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4" }
+    },
+	{
+		"when": { "eightway_position": "20", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "20", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "20", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "20", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "20", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "20", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "20", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "20", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "20", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "20", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "21", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4" }
+    },
+	{
+		"when": { "eightway_position": "21", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4" }
+    },
+	{
+		"when": { "eightway_position": "21", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "21", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "21", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "21", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "21", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "21", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "21", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "21", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "21", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "21", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "22", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4" }
+    },
+	{
+		"when": { "eightway_position": "22", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1" }
+    },
+	{
+		"when": { "eightway_position": "22", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "22", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "22", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "22", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "22", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "22", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "22", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "22", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "22", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "22", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "23", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1" }
+    },
+	{
+		"when": { "eightway_position": "23", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1" }
+    },
+	{
+		"when": { "eightway_position": "23", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "23", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "23", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "23", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "23", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "23", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "23", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "23", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "23", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "23", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "24", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2" }
+    },
+	{
+		"when": { "eightway_position": "24", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2" }
+    },
+	{
+		"when": { "eightway_position": "24", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "24", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "24", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "24", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "24", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "24", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "24", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "24", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "24", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "24", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "25", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1" }
+    },
+	{
+		"when": { "eightway_position": "25", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1" }
+    },
+	{
+		"when": { "eightway_position": "25", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "25", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "25", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "25", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "25", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "25", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "25", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "25", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "25", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "25", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "26", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1" }
+    },
+	{
+		"when": { "eightway_position": "26", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1" }
+    },
+	{
+		"when": { "eightway_position": "26", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "26", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "26", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "26", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "26", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "26", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "26", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "26", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "26", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "26", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "27", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2" }
+    },
+	{
+		"when": { "eightway_position": "27", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2" }
+    },
+	{
+		"when": { "eightway_position": "27", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "27", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "27", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "27", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "27", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "27", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "27", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "27", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "27", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "27", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "28", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4" }
+    },
+	{
+		"when": { "eightway_position": "28", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1" }
+    },
+	{
+		"when": { "eightway_position": "28", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "28", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "28", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "28", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "28", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "28", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "28", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "28", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "28", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "28", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "29", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3" }
+    },
+	{
+		"when": { "eightway_position": "29", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4" }
+    },
+	{
+		"when": { "eightway_position": "29", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "29", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "29", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "29", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "29", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "29", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "29", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1" }
+    },
+	{
+		"when": { "eightway_position": "29", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "29", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "29", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "30", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1" }
+    },
+	{
+		"when": { "eightway_position": "30", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4" }
+    },
+	{
+		"when": { "eightway_position": "30", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "30", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "30", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "30", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "30", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "30", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "30", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "30", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "30", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "30", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "31", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3" }
+    },
+	{
+		"when": { "eightway_position": "31", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1" }
+    },
+	{
+		"when": { "eightway_position": "31", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "31", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "31", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "31", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "31", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "31", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "31", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1" }
+    },
+	{
+		"when": { "eightway_position": "31", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "31", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "31", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_1", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "32", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1" }
+    },
+	{
+		"when": { "eightway_position": "32", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4" }
+    },
+	{
+		"when": { "eightway_position": "32", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "32", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "32", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "32", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "32", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "32", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "32", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "32", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "32", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "32", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "33", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1" }
+    },
+	{
+		"when": { "eightway_position": "33", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1" }
+    },
+	{
+		"when": { "eightway_position": "33", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "33", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "33", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "33", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "33", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "33", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "33", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "33", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "33", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "33", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "34", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1" }
+    },
+	{
+		"when": { "eightway_position": "34", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4" }
+    },
+	{
+		"when": { "eightway_position": "34", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "34", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "34", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "34", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "34", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "34", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "34", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "34", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "34", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "34", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "35", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4" }
+    },
+	{
+		"when": { "eightway_position": "35", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1" }
+    },
+	{
+		"when": { "eightway_position": "35", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "35", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "35", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "35", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "35", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "35", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "35", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "35", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "35", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "35", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "36", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2" }
+    },
+	{
+		"when": { "eightway_position": "36", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown" }
+    },
+	{
+		"when": { "eightway_position": "36", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "36", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "36", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "36", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt" }
+    },
+	{
+		"when": { "eightway_position": "36", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "36", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "36", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3" }
+    },
+	{
+		"when": { "eightway_position": "36", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "36", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "36", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "37", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1" }
+    },
+	{
+		"when": { "eightway_position": "37", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3" }
+    },
+	{
+		"when": { "eightway_position": "37", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "37", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "37", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "37", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt" }
+    },
+	{
+		"when": { "eightway_position": "37", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "37", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "37", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3" }
+    },
+	{
+		"when": { "eightway_position": "37", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "37", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "37", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "38", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1" }
+    },
+	{
+		"when": { "eightway_position": "38", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3" }
+    },
+	{
+		"when": { "eightway_position": "38", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "38", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "38", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "38", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "38", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "38", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "38", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3" }
+    },
+	{
+		"when": { "eightway_position": "38", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "38", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "38", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "39", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2" }
+    },
+	{
+		"when": { "eightway_position": "39", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown" }
+    },
+	{
+		"when": { "eightway_position": "39", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "39", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "39", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "39", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "39", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "39", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "39", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3" }
+    },
+	{
+		"when": { "eightway_position": "39", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "39", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "39", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "40", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1" }
+    },
+	{
+		"when": { "eightway_position": "40", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3" }
+    },
+	{
+		"when": { "eightway_position": "40", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "40", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "40", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "40", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "40", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "40", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "40", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3" }
+    },
+	{
+		"when": { "eightway_position": "40", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "40", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "40", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "41", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2" }
+    },
+	{
+		"when": { "eightway_position": "41", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2" }
+    },
+	{
+		"when": { "eightway_position": "41", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "41", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "41", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "41", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "41", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "41", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "41", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "41", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "41", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "41", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "42", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4" }
+    },
+	{
+		"when": { "eightway_position": "42", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3" }
+    },
+	{
+		"when": { "eightway_position": "42", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "42", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "42", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "42", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "42", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "42", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "42", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3" }
+    },
+	{
+		"when": { "eightway_position": "42", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3" }
+    },
+	{
+		"when": { "eightway_position": "42", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_3", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "42", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_3", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "43", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2" }
+    },
+	{
+		"when": { "eightway_position": "43", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2" }
+    },
+	{
+		"when": { "eightway_position": "43", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "43", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "43", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "43", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "43", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "43", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "43", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "43", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "43", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "43", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "44", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4" }
+    },
+	{
+		"when": { "eightway_position": "44", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1" }
+    },
+	{
+		"when": { "eightway_position": "44", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "44", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "44", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "44", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "44", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "44", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "44", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "44", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "44", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "44", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "45", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1" }
+    },
+	{
+		"when": { "eightway_position": "45", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1" }
+    },
+	{
+		"when": { "eightway_position": "45", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "45", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "45", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "45", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1" }
+    },
+	{
+		"when": { "eightway_position": "45", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "45", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_1", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "45", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "45", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "45", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "45", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    },
+	
+	
+	{
+		"when": { "eightway_position": "46", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4" }
+    },
+	{
+		"when": { "eightway_position": "46", "north": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4" }
+    },
+	{
+		"when": { "eightway_position": "46", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "46", "east": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "46", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "46", "south": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4" }
+    },
+	{
+		"when": { "eightway_position": "46", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sideup_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "46", "west": "true" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_sidedown_alt_4", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "46", "north": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2" }
+    },
+	{
+		"when": { "eightway_position": "46", "east": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2" }
+    },
+	{
+		"when": { "eightway_position": "46", "south": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_alt_2", "y": 90 }
+    },
+	{
+		"when": { "eightway_position": "46", "west": "false" },
+		"apply": { "model": "medievalglass:block/magenta_leaded_glass_pane_noside_2", "y": 270 }
+    }
+  ]
+}
