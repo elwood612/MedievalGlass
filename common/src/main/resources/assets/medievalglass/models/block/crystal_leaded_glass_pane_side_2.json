@@ -1,0 +1,9 @@
+{
+  "render_type": "translucent",
+  "parent": "medievalglass:block/template_vertical_connected_pane_side_2",
+  "textures": {
+    "pane": "medievalglass:block/atlas/crystal_leaded_glass_pane_atlas",
+    "edge": "medievalglass:block/leaded_glass_pane_top",
+	"item": "medievalglass:item/crystal_leaded_glass_pane_item"
+  }
+}
