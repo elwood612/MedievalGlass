@@ -6,10 +6,8 @@ import com.github.elwood612.medievalglass.blocks.VerticalConnectedPane;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -28,7 +26,7 @@ public class FabricRegistry
             ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, ModBlocks.TAB_ID),
             FabricItemGroup.builder()
                     .title(Component.translatable("itemGroup." + Constants.MOD_ID + ".tab"))
-                    .icon(() -> new ItemStack(BuiltInRegistries.BLOCK.getValue(ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "leaded_glass_pane"))))
+                    .icon(() -> new ItemStack(BuiltInRegistries.BLOCK.get(ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "leaded_glass_pane"))))
                     .displayItems((params, output) -> {
                         for (Block block : REGISTERED_BLOCKS.values()) {
                             output.accept(block.asItem());
@@ -45,18 +43,16 @@ public class FabricRegistry
         Block block;
         switch(type) {
             case VERTICAL_PANE -> block =
-                    new VerticalConnectedPane(ModBlocks.GLASS_PROPERTIES.setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, name))));
+                    new VerticalConnectedPane(ModBlocks.GLASS_PROPERTIES);
             case EIGHTWAY_PANE -> block =
-                    new EightwayConnectedPane(ModBlocks.GLASS_PROPERTIES.setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, name))));
+                    new EightwayConnectedPane(ModBlocks.GLASS_PROPERTIES);
             case REGULAR_PANE -> block =
-                    new IronBarsBlock(ModBlocks.GLASS_PROPERTIES.setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, name))));
+                    new IronBarsBlock(ModBlocks.GLASS_PROPERTIES);
             default -> block = null;
         }
         Registry.register(BuiltInRegistries.BLOCK, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, name), block);
         Registry.register(BuiltInRegistries.ITEM, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, name),
-                new BlockItem(block, new Item.Properties()
-                        .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, name)))
-                        .useBlockDescriptionPrefix()));
+                new BlockItem(block, new Item.Properties()));
 
         REGISTERED_BLOCKS.put(name, block);
     }

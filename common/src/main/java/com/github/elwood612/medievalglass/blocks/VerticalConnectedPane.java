@@ -6,8 +6,8 @@ import net.minecraft.core.Direction;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.LevelReader;
-import net.minecraft.world.level.ScheduledTickAccess;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.IronBarsBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -64,10 +64,10 @@ public class VerticalConnectedPane extends IronBarsBlock
                 .setValue(VERTICAL_POSITION, computeVertical(north, south, west, east, context.getLevel(), blockpos));
     }
 
-    protected BlockState updateShape(BlockState state, LevelReader level, ScheduledTickAccess tickAccess, BlockPos pos, Direction direction,
+    protected BlockState updateShape(BlockState state, LevelAccessor level, BlockPos pos, Direction direction,
                                      BlockPos neighborPos, BlockState neighborState, RandomSource random) {
         if ((Boolean)state.getValue(WATERLOGGED)) {
-            tickAccess.scheduleTick(pos, Fluids.WATER, Fluids.WATER.getTickDelay(level));
+            level.scheduleTick(pos, Fluids.WATER, Fluids.WATER.getTickDelay(level));
         }
 
         if (direction.getAxis().isHorizontal()) {

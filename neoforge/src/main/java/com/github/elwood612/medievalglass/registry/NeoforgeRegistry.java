@@ -30,7 +30,7 @@ public class NeoforgeRegistry
             TABS.register(ModBlocks.TAB_ID, () ->
                     CreativeModeTab.builder()
                             .title(Component.translatable("itemGroup." + Constants.MOD_ID + ".tab"))
-                            .icon(() -> new ItemStack(BuiltInRegistries.BLOCK.getValue(ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "leaded_glass_pane"))))
+                            .icon(() -> new ItemStack(BuiltInRegistries.BLOCK.get(ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, "leaded_glass_pane"))))
                             .displayItems((params, output) -> {
                                 for (DeferredHolder<Block, ? extends Block> block : BLOCKS.getEntries()) {
                                     output.accept(block.get());
@@ -51,11 +51,11 @@ public class NeoforgeRegistry
         DeferredBlock<Block> block;
         switch(type) {
             case VERTICAL_PANE -> block = BLOCKS.register(name, registryName ->
-                    new VerticalConnectedPane(ModBlocks.GLASS_PROPERTIES.setId(ResourceKey.create(Registries.BLOCK, registryName))));
+                    new VerticalConnectedPane(ModBlocks.GLASS_PROPERTIES));
             case EIGHTWAY_PANE -> block = BLOCKS.register(name, registryName ->
-                    new EightwayConnectedPane(ModBlocks.GLASS_PROPERTIES.setId(ResourceKey.create(Registries.BLOCK, registryName))));
+                    new EightwayConnectedPane(ModBlocks.GLASS_PROPERTIES));
             case REGULAR_PANE -> block = BLOCKS.register(name, registryName ->
-                    new IronBarsBlock(ModBlocks.GLASS_PROPERTIES.setId(ResourceKey.create(Registries.BLOCK, registryName))));
+                    new IronBarsBlock(ModBlocks.GLASS_PROPERTIES));
             default -> block = null;
         }
         ITEMS.registerSimpleBlockItem(name, block, new Item.Properties());
