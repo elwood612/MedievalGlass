@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "framed_glass_panes",
+  "pattern": [
+    " X ",
+    "X#X",
+    " X "
+  ],
+  "key": {
+    "#": "minecraft:glass_pane",
+    "X": "minecraft:crimson_planks"
+  },
+  "result": 
+  { 
+    "id": "medievalglass:crimson_framed_glass_pane"
+  }
+}
