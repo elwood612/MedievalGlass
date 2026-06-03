@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "leaded_colored_glass",
+  "ingredients": [
+    "medievalglass:leaded_glass_pane",
+    "minecraft:golden_pickaxe"
+  ],
+  "result": {
+    "count": 1,
+    "id": "medievalglass:pickaxe_leaded_glass_pane"
+  }
+}
