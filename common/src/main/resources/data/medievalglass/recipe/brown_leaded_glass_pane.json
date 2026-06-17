@@ -5,7 +5,7 @@
   "pattern": [
     " X+",
     "X#X",
-    "+X "
+    " X "
   ],
   "key": {
     "#": "minecraft:glass_pane",

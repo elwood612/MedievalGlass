@@ -3,9 +3,9 @@
   "category": "building",
   "group": "leaded_colored_glass",
   "pattern": [
-    "+X ",
+    " X ",
     "X#X",
-    " X+"
+    "+X "
   ],
   "key": {
     "#": "minecraft:glass_pane",
