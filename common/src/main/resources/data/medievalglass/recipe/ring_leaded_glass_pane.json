@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "leaded_colored_glass",
+  "pattern": [
+    "+X-",
+    "X#X",
+    "*X="
+  ],
+  "key": {
+    "#": "minecraft:glass_pane",
+    "X": "minecraft:iron_ingot",
+	"+": "minecraft:green_dye",
+	"-": "minecraft:blue_dye",
+	"=": "minecraft:black_dye",
+	"*": "minecraft:red_dye"
+  },
+  "result": 
+  { 
+    "id": "medievalglass:ring_leaded_glass_pane"
+  }
+}

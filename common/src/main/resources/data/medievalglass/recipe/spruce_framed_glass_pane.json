@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "framed_glass_panes",
+  "pattern": [
+    " X ",
+    "X#X",
+    " X "
+  ],
+  "key": {
+    "#": "minecraft:glass_pane",
+    "X": "minecraft:spruce_planks"
+  },
+  "result": 
+  { 
+    "id": "medievalglass:spruce_framed_glass_pane"
+  }
+}

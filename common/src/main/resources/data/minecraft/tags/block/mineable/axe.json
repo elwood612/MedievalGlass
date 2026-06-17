@@ -1,0 +1,17 @@
+{ 
+  "replace": false, 
+  "values": [
+    "medievalglass:warped_framed_glass_pane",
+	"medievalglass:crimson_framed_glass_pane", 
+	"medievalglass:jungle_framed_glass_pane", 
+	"medievalglass:acacia_framed_glass_pane", 
+	"medievalglass:dark_oak_framed_glass_pane", 
+	"medievalglass:birch_framed_glass_pane", 
+	"medievalglass:oak_framed_glass_pane", 
+	"medievalglass:spruce_framed_glass_pane",
+	"medievalglass:mangrove_framed_glass_pane",
+	"medievalglass:cherry_framed_glass_pane",
+	"medievalglass:bamboo_framed_glass_pane",
+	"medievalglass:pale_oak_framed_glass_pane"
+  ]
+}

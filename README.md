@@ -1,32 +1,47 @@
-# MultiLoader Template
+# Proper Stained Glass
 
-This project provides a Gradle project template that can compile Minecraft mods for multiple modloaders using a common project for the sources. This project does not require any third party libraries or dependencies. If you have any questions or want to discuss the project, please join our [Discord](https://discord.myceliummod.network).
+Have you ever thought Minecraft's "stained glass" didn't really resemble the real thing? Have you ever wanted more vibrant stained glass windows for all your cathedral/tudor mansion/gothic revival needs? You've come to the right place.
 
-## Getting Started
+Rather than replace Minecraft's glass, this mod adds additional so-called "leaded glass panes" to the game. Craft them in all the dye-able colors, and check out the special vertical patterns too. As a bonus, there are also wood-framed glass panes for more rustic builds.
 
-### IntelliJ IDEA
-This guide will show how to import the MultiLoader Template into IntelliJ IDEA. The setup process is roughly equivalent to setting up the modloaders independently and should be very familiar to anyone who has worked with their MDKs.
+All textures are 16x16.
 
-1. Clone or download this repository to your computer.
-2. Configure the project by setting the properties in the `gradle.properties` file. You will also need to change the `rootProject.name`  property in `settings.gradle`, this should match the folder name of your project, or else IDEA may complain.
-3. Open the template's root folder as a new project in IDEA. This is the folder that contains this README.md file and the gradlew executable.
-4. If your default JVM/JDK is not Java 25 you will encounter an error when opening the project. This error is fixed by going to `File > Settings > Build, Execution, Deployment > Build Tools > Gradle > Gradle JVM` and changing the value to a valid Java 25 JVM. You will also need to set the Project SDK to Java 25. This can be done by going to `File > Project Structure > Project SDK`. Once both have been set open the Gradle tab in IDEA and click the refresh button to reload the project.
-5. Open your Run/Debug Configurations. Under the `Application` category there should now be options to run Fabric and NeoForge projects. Select one of the client options and try to run it.
-6. Assuming you were able to run the game in step 5 your workspace should now be set up.
+Most of them exhibit "connected" behavior: identical panes placed near each other will connect. You do NOT need any 3rd party connected textures mod to use these, all you need is this mod.
 
-### Eclipse
-While it is possible to use this template in Eclipse it is not recommended. During the development of this template multiple critical bugs and quirks related to Eclipse were found at nearly every level of the required build tools. While we continue to work with these tools to report and resolve issues support for projects like these are not there yet. For now Eclipse is considered unsupported by this project. The development cycle for build tools is notoriously slow so there are no ETAs available.
+These panes are based on real world leaded glass patterns, altered to fit Minecraft's aesthetic. For some real world examples, see here: https://www.tudorartisans.com/glasspage.htm
 
-## Development Guide
-When using this template the majority of your mod should be developed in the `common` project. The `common` project is compiled against the vanilla game and is used to hold code that is shared between the different loader-specific versions of your mod. The `common` project has no knowledge or access to ModLoader specific code, apis, or concepts. Code that requires something from a specific loader must be done through the project that is specific to that loader, such as the `fabric` or `neoforge` projects.
+_________
 
-Loader specific projects such as the `fabric` and `neoforge` project are used to load the `common` project into the game. These projects also define code that is specific to that loader. Loader specific projects can access all the code in the `common` project. It is important to remember that the `common` project can not access code from loader specific projects.
+If you want a version that simply replaces Minecraft's glass, check out my Better Stained Glass resource pack: https://www.curseforge.com/minecraft/texture-packs/better-stained-glass
+They're the same textures, but applied to vanilla stained glass. Note that you will require Optifine for the connected textures.
 
-## Removing Platforms and Loaders
-While this template has support for many modloaders, new loaders may appear in the future, and existing loaders may become less relevant.
+________
 
-Removing loader specific projects is as easy as deleting the folder, and removing the `include("projectname")` line from the `settings.gradle` file.
-For example if you wanted to remove support for `forge` you would follow the following steps:
+# FAQ
+Is this compatible with Optifine/Sodium/Athena/Connected Textures/Iris/etc etc?
+-> Yes. Again, they're not needed to make this mod work. But they won't conflict, either.
 
-1. Delete the subproject folder. For example, delete `MultiLoader-Template/forge`.
-2. Remove the project from `settings.gradle`. For example, remove `include("forge")`. 
+Can you make a 32x32 version?
+-> Too much work, sorry. Not going to happen. Permissions are open though. :)
+
+These are just Conquest/Chroma Hills/John Smith/other-texture-pack-I've-seen !! 
+-> First, that's not a question. Second, we've all based our work on real-life leaded glass patterns: check out the link above if you're curious. So any resemblance is mainly due to the fact that we used the same inspirations. For the record: every single texture here was made from scratch, in 16x16, by me. 
+
+You used AI !!
+-> I did not. I've been working on these textures since 2020.
+
+Can you add a new pattern?
+-> Possibly, but my time is limited these days. For now, what you see is what you get. Feel free to make suggestions, though.
+
+Can you add a build for Minecraft version X.X.X?
+-> Probably. It does take some work to make new versions, so I've focused on modern Minecraft. But if there's any interest I can always try to backport this to older versions, so let me know.
+
+____________
+
+Code is licensed under MIT.
+
+Textures/assets are licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+If that license page looks confusing, it basically means you can use, modify, redistribute, 
+and port these assets, as long as you give appropriate credit.
+
+For any questions, leave a comment on Curseforge, I'll answer.
